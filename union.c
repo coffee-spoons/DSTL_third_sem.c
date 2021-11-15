@@ -39,7 +39,7 @@ int main()
     int * set3= (int * ) malloc ( (n1 + n2) * sizeof(int ));
 
     //inserting all elements of set1 in set3 first
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < n1; i++)
     {
         set3[i] = set1[i];
     }
@@ -48,9 +48,9 @@ int main()
     stored in set3 otherwise it will not be stored in
     set3*/
     int z = 5;
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < n2; i++)
     {
-        for (int j = 0; j < 5; j++)
+        for (int j = 0; j < n1; j++)
         {
             if (set2[i] == set1[j])
             {
