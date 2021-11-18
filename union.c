@@ -47,7 +47,7 @@ int main()
     /*elements which are not contained in set1 will be
     stored in set3 otherwise it will not be stored in
     set3*/
-    int z = 5;
+    int z = n1;
     for (int i = 0; i < n2; i++)
     {
         for (int j = 0; j < n1; j++)
@@ -71,6 +71,8 @@ int main()
 
     /* This will print set3 which contain union of two
     sets 1 and 2*/
+
+    printf("\nThe union od set A and set B is: ");
     for (int i = 0; i < z; i++)
     {
         printf("%d, ", set3[i]);
